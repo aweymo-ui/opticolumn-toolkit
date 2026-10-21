@@ -41,8 +41,11 @@ The Opticolumn Toolkit includes the following resources and applications:
     - Intended for archival scans of large-scale, multi-columned materials, such as newspapers.
 - [Opticolumn_Editor](https://github.com/Scholarly-Projects/opticolumn_editor) (repository private until the completion of 2026 grant project)
     - Creates OCR using Opticolumn and produces a CSV of the OCR text that can be edited and processed again to incorporate copy edits into the final embedded layer. This method is recommended if you need OCR that surpasses Opticolumn benchmarks detailed in the [OSF Repository for Post-Processing OCR Accuracy Survey](https://osf.io/9f483/overview){:target="_blank" rel="noopener"}.
+- [Opticolumn_Book_Scan](https://github.com/Scholarly-Projects/opticolumn_book_scan)
+    - Designed specifically for creating accurate OCR for scanned two page spreads of physical books. Features include locating the spine of the book, identifying the left and right text elements through coordinate mapping, deskewing text sections independently, and using relaxed text recognition confidence levels near the spine to accommodate for raised and slightly blurred text.
+
 - _Forthcoming_:
-    - An Optical Music Recognition tool, to make the library's International Jazz Collection and digitized sheet music fully accessible.
+    - An Optical Music Recognition tool, to make the library's [International Jazz Collection](https://www.ijc.uidaho.edu/) digitized sheet music fully accessible.
 
 _Step-by-step instructions for installing and running these scripts are included in each tool's setup.md file._
 
