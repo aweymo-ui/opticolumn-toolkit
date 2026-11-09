@@ -5,7 +5,7 @@ layout: page
 
 <div class="hero-logo-wrap">
   <img src="{{ '/images/opti_logo.png' | relative_url }}" class="hero-logo"
-       alt="Opticolumn logo of a lighthouse on top of a book with the sea in the distance.">
+       alt="Opticolumn logo of a lighthouse on top of a green book with the sea in the distance.">
 </div>
 
 <details class="section" markdown="1" open>
@@ -85,7 +85,7 @@ The Opticolumn Toolkit was developed while overhauling the [University of Idaho 
 
 <aside class="sister-site" markdown="0">
   <a href="{{ site.sister-site-url }}">
-    <img src="{{ site.sister-site-logo | relative_url }}" alt="" class="sister-site-logo">
+    <img src="{{ site.sister-site-logo | relative_url }}" alt="{{ site.sister-site-logo-alt }}" class="sister-site-logo">
     <span class="sister-site-label">Companion toolkit</span>
     <span class="sister-site-title">{{ site.sister-site-title }} &rarr;</span>
   </a>

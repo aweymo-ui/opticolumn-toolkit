@@ -73,6 +73,7 @@ markdown: kramdown
 sister-site-title: Speech to Text Tools
 sister-site-url: https://aweymo-ui.github.io/ohmsi-kit-base/
 sister-site-logo: /images/ohmsi_logo.png
+sister-site-logo-alt: ohmsi-kit logo of a lighthouse on top of a red radio with the sea in the distance.
 
 # THEME ICONS [optional!]
 # default icons can be overridden or new icons can be added using "icons" object
