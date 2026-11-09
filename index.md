@@ -83,6 +83,14 @@ The Opticolumn Toolkit was developed while overhauling the [University of Idaho 
 
 </details>
 
+<aside class="sister-site" markdown="0">
+  <a href="{{ site.sister-site-url }}">
+    <img src="{{ site.sister-site-logo | relative_url }}" alt="" class="sister-site-logo">
+    <span class="sister-site-label">Companion toolkit</span>
+    <span class="sister-site-title">{{ site.sister-site-title }} &rarr;</span>
+  </a>
+</aside>
+
 ------
 
 {% include template/credits.html %}
